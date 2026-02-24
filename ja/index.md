@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: ZenClip を購入 ($5)
-      link: [https://buy.polar.sh/polar_cl_O7UokiAgrxf6j1fNggb0X2cddHfaWymznBB1C3V8jBT](https://buy.polar.sh/polar_cl_O7UokiAgrxf6j1fNggb0X2cddHfaWymznBB1C3V8jBT)
+      link: https://buy.polar.sh/polar_cl_O7UokiAgrxf6j1fNggb0X2cddHfaWymznBB1C3V8jBT
     - theme: alt
       text: GitHubで詳細を見る
-      link: [https://github.com/saka-guchi/zen-do](https://github.com/saka-guchi/zen-do)
+      link: https://github.com/saka-guchi/zen-do
 
 features:
   - title: 📋 ZenClip
