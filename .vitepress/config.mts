@@ -51,11 +51,5 @@ export default defineConfig({
         }
       }
     }
-  },
-
-  themeConfig: {
-    socialLinks: [
-      { icon: 'github', link: '[https://github.com/あなたのユーザー名/zen-do](https://github.com/あなたのユーザー名/zen-do)' }
-    ]
   }
 })

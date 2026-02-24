@@ -11,7 +11,7 @@ hero:
       link: https://buy.polar.sh/polar_cl_O7UokiAgrxf6j1fNggb0X2cddHfaWymznBB1C3V8jBT
     - theme: alt
       text: View on GitHub
-      link: https://github.com/saka-guchi/zen-do
+      link: https://github.com/saka-guchi/zen-clip
 
 features:
   - title: 📋 ZenClip
