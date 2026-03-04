@@ -23,7 +23,8 @@ export default defineConfig({
           }
         ],
         footer: {
-          message: 'Released under the MIT License.',
+          // 英語版のフッターにリンクを追加
+          message: 'Released under the MIT License. <br> <a href="/zen-do/terms">Terms of Service</a> | <a href="/zen-do/refund">Refund Policy</a>',
           copyright: 'Copyright © 2026 Zen-Do Development'
         }
       }
@@ -46,7 +47,8 @@ export default defineConfig({
           }
         ],
         footer: {
-          message: 'Released under the MIT License.',
+          // 日本語版のフッターにリンクを追加
+          message: 'MIT License のもとで公開されています。 <br> <a href="/zen-do/ja/terms">利用規約</a> | <a href="/zen-do/ja/refund">返金ポリシー</a>',
           copyright: 'Copyright © 2026 Zen-Do Development'
         }
       }

@@ -35,10 +35,6 @@ features:
   <a class="VPButton medium alt" href="https://github.com/saka-guchi/zen-clip">無料版をダウンロード (GitHub)</a>
   <a class="VPButton medium brand" href="https://buy.polar.sh/polar_cl_uYQimxvpseP80yopub0uTZO2tXZqXDseLS68r0TCXBv">Pro版のライセンスを購入</a>
 </div>
-<div style="margin-bottom: 4rem;">
-  <a href="/ja/terms">利用規約</a> |
-  <a href="/ja/refund">返金ポリシー</a>
-</div>
 
 ---
 

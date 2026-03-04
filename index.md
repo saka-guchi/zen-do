@@ -35,10 +35,6 @@ Just copy text and press the shortcut. Process translations, summaries, and code
   <a class="VPButton medium alt" href="https://github.com/saka-guchi/zen-clip">Download Free Version (GitHub)</a>
   <a class="VPButton medium brand" href="https://buy.polar.sh/polar_cl_uYQimxvpseP80yopub0uTZO2tXZqXDseLS68r0TCXBv">Buy ZenClip Pro License</a>
 </div>
-<div style="margin-bottom: 4rem;">
-  <a href="/terms">Terms of Service</a> |
-  <a href="/refund">Refund Policy</a>
-</div>
 
 ---
 
