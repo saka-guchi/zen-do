@@ -36,7 +36,7 @@ Just copy text and press the shortcut. Process translations, summaries, and code
   <a class="VPButton medium brand" href="https://buy.polar.sh/polar_cl_uYQimxvpseP80yopub0uTZO2tXZqXDseLS68r0TCXBv">Buy ZenClip Pro License</a>
 </div>
 <div style="margin-bottom: 4rem;">
-  [Terms of Service](/terms) | [Refund Policy](/refund)
+  [Terms of Service](/terms.md) | [Refund Policy](/refund.md)
 </div>
 
 ---
