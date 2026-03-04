@@ -33,7 +33,7 @@ Just copy text and press the shortcut. Process translations, summaries, and code
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; margin-bottom: 1rem;">
   <a class="VPButton medium alt" href="https://github.com/saka-guchi/zen-clip">Download Free Version (GitHub)</a>
-  <a class="VPButton medium brand" href="https://buy.polar.sh/polar_cl_O7UokiAgrxf6j1fNggb0X2cddHfaWymznBB1C3V8jBT">Get ZenClip Pro ($5)</a>
+  <a class="VPButton medium brand" href="https://buy.polar.sh/polar_cl_uYQimxvpseP80yopub0uTZO2tXZqXDseLS68r0TCXBv">Buy ZenClip Pro License</a>
 </div>
 <div style="margin-bottom: 4rem;">
   [Terms of Service](/terms) | [Refund Policy](/refund)
