@@ -24,16 +24,19 @@ features:
 
 <h2 id="products" style="text-align: center; margin-top: 4rem; margin-bottom: 2rem;">Products</h2>
 
-### ✂️ ZenClip
+### 📋 ZenClip
 
 Just copy text and press the shortcut. Process translations, summaries, and code proofreading in the background via local Gemini CLI without ever opening a browser.
 
 * **Free Version**: All basic features are available to download and use from GitHub.
 * **Pro Version**: Support development and unlock advanced settings and additional features exclusive to Pro.
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; margin-bottom: 4rem;">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; margin-bottom: 1rem;">
   <a class="VPButton medium alt" href="https://github.com/saka-guchi/zen-clip">Download Free Version (GitHub)</a>
   <a class="VPButton medium brand" href="https://buy.polar.sh/polar_cl_O7UokiAgrxf6j1fNggb0X2cddHfaWymznBB1C3V8jBT">Get ZenClip Pro ($5)</a>
+</div>
+<div style="margin-bottom: 4rem;">
+  [Terms of Service](/terms) | [Refund Policy](/refund)
 </div>
 
 ---
