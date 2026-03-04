@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: View Products
-      link: #products
+      link: /#products
     - theme: alt
       text: Documentation
       link: /zenclip

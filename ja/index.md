@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: プロダクト一覧へ
-      link: #products
+      link: /#products
     - theme: alt
       text: 使い方（ドキュメント）
       link: /ja/zenclip
