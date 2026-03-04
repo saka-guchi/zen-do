@@ -36,7 +36,8 @@ features:
   <a class="VPButton medium brand" href="https://buy.polar.sh/polar_cl_uYQimxvpseP80yopub0uTZO2tXZqXDseLS68r0TCXBv">Pro版のライセンスを購入</a>
 </div>
 <div style="margin-bottom: 4rem;">
-  [利用規約](/ja/terms.md) | [返金ポリシー](/ja/refund.md)
+  <a href="/ja/terms">利用規約</a> |
+  <a href="/ja/refund">返金ポリシー</a>
 </div>
 
 ---
