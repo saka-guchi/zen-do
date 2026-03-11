@@ -1,11 +1,11 @@
-# <img src="./assets/zenclip/logo.png" class="themed-logo light-only" alt="ZenClip Logo" /><img src="./assets/zenclip/logo-white.png" class="themed-logo dark-only" alt="ZenClip Logo" /> ZenClip Documentation
+# <img src="./Assets/zenclip/logo.png" class="themed-logo light-only" alt="ZenClip Logo" /><img src="./Assets/zenclip/logo-white.png" class="themed-logo dark-only" alt="ZenClip Logo" /> ZenClip Documentation
 
 **ZenClip** is an AI-powered clipboard manager that sits in your Windows system tray.
 It integrates with your local **Gemini CLI** or **GitHub Copilot CLI** to instantly process clipboard text with custom prompts, without interrupting your workflow.
 
 **Free-to-use (with limitations)**. You can unlock all features by purchasing a Pro license on Polar.
 
-![Demo Video](./assets/zenclip/demo.gif)
+![Demo Video](./Assets/zenclip/demo.gif)
 
 ---
 
@@ -27,9 +27,9 @@ To use this application, you must have at least one (or both) of the following C
 - **Multi-Engine Support**: Choose between Gemini CLI and GitHub Copilot CLI as your engine.
 - **Unobtrusive Design**: Resides quietly in the system tray. A minimal OSD is displayed during processing, and a notification alerts you when finished.
 - **Custom Prompts**: Add and manage your own AI instructions (prompts) tailored to your needs.
-  ![Prompt Editor](./assets/zenclip/PromptWindow.png)
+  ![Prompt Editor](./Assets/zenclip/PromptWindow.png)
 - **History Management**: Automatically saves AI responses. View, reuse, or batch-delete past results from the history window.
-  ![History](./assets/zenclip/HistoryWindow.png)
+  ![History](./Assets/zenclip/HistoryWindow.png)
 - **Multilingual Support**: The UI supports both English and Japanese (switches automatically based on OS settings).
 
 ### Icon States
@@ -37,9 +37,9 @@ The system tray icon changes based on the application status:
 
 | State | Icon | Description |
 | :--- | :--- | :--- |
-| **Idle** | ![](./assets/zenclip/TrayIcon_Idle.png) | Ready to process. |
-| **Processing** | ![](./assets/zenclip/TrayIcon_Processing.png) | AI is processing your request. |
-| **Error** | ![](./assets/zenclip/TrayIcon_Error.png) | Processing failed. Check your CLI tool status. |
+| **Idle** | ![](./Assets/zenclip/TrayIcon_Idle.png) | Ready to process. |
+| **Processing** | ![](./Assets/zenclip/TrayIcon_Processing.png) | AI is processing your request. |
+| **Error** | ![](./Assets/zenclip/TrayIcon_Error.png) | Processing failed. Check your CLI tool status. |
 
 ---
 
@@ -70,6 +70,6 @@ To unlock all features, please purchase a license.
 ### 2. Processing Text
 1. **Select and copy** the text you want to process.
 2. Press the shortcut **`<Ctrl> + <Shift> + C`**. <br/>
-  ![OSD](./assets/zenclip/ProcessingOsdWindow.png)
+  ![OSD](./Assets/zenclip/ProcessingOsdWindow.png)
 3. **AI processing starts immediately**, and the results are automatically copied to your clipboard (can be changed in settings). <br/>
-  ![Toast](./assets/zenclip/ToastWindow.png)
+  ![Toast](./Assets/zenclip/ToastWindow.png)
