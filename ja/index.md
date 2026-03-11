@@ -5,10 +5,14 @@ hero:
   name: "Zen-Do"
   text: "日常のワークフローを削ぎ落とす"
   tagline: "本質に集中するためのWindowsデスクトップ向けAIユーティリティ群"
+  image:
+    light: /assets/logo.png
+    dark: /assets/logo-white.png
+    alt: Zen-Do Logo
   actions:
     - theme: brand
       text: プロダクト一覧へ
-      link: /#products
+      link: /ja/#products
     - theme: alt
       text: 使い方（ドキュメント）
       link: /ja/zenclip
@@ -24,17 +28,17 @@ features:
 
 <h2 id="products" style="text-align: center; margin-top: 4rem; margin-bottom: 2rem;">プロダクト</h2>
 
-### 📋 ZenClip
+### <img src="/assets/zenclip/logo.png" class="themed-logo light-only" alt="ZenClip Logo" /><img src="/assets/zenclip/logo-white.png" class="themed-logo dark-only" alt="ZenClip Logo" /> ZenClip
 
-テキストをコピーしてショートカットキーを押すだけ。ブラウザを開かずに、ローカルのGemini CLI経由で翻訳・要約・コード校正をバックグラウンドで完結させます。
+テキストをコピーしてショートカットキーを押すだけ。ブラウザを開かずに、ローカルのGemini CLI経由で翻訳・要約・コード校正をバックグラウンドで完結させます。**GoogleやGitHubが提供しているCLIアプリ経由のため、従量課金制のAPIは一切使用していません。お財布に優しくAIを手軽に利用できます。**
 
-* **無料版**: 全ての基本機能をGitHubからダウンロードして利用可能です。
-* **Pro版**: 開発を支援し、Pro限定の高度な設定や追加機能を解放します。
+
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; margin-bottom: 1rem;">
   <a class="VPButton medium alt" href="https://github.com/saka-guchi/zen-clip">無料版をダウンロード (GitHub)</a>
   <a class="VPButton medium brand" href="https://buy.polar.sh/polar_cl_uYQimxvpseP80yopub0uTZO2tXZqXDseLS68r0TCXBv">Pro版のライセンスを購入</a>
 </div>
+<p style="text-align: left; font-size: 0.9em; margin-top: -0.5rem;"><a href="/zen-do/ja/zenclip#💎-free-vs-pro-機能比較">→ Free版とPro版の機能比較を見る</a></p>
 
 ---
 

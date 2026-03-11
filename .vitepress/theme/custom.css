@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600&family=Noto+Serif+JP:wght@400;700&display=swap');
+
+:root {
+    /* Zen Monochrome Palette */
+    --zen-black: #121212;
+    --zen-ink: #1e1e1e;
+    --zen-charcoal: #2a2a2a;
+    --zen-stone: #404040;
+    --zen-mist: #a0a0a0;
+    --zen-snow: #f8f8f8;
+    --zen-white: #ffffff;
+
+    /* Gradient Accents */
+    --zen-gradient-silver: linear-gradient(135deg, #e0e0e0 0%, #b0b0b0 100%);
+    --zen-gradient-ink: linear-gradient(135deg, #2c3e50 0%, #000000 100%);
+    --zen-gradient-zen: linear-gradient(135deg, #434343 0%, #000000 100%);
+
+    /* VitePress Variables Override */
+    --vp-c-brand-1: var(--zen-black);
+    --vp-c-brand-2: var(--zen-charcoal);
+    --vp-c-brand-3: var(--zen-stone);
+    --vp-c-brand-soft: rgba(0, 0, 0, 0.05);
+
+    --vp-c-bg: var(--zen-snow);
+    --vp-c-bg-soft: #f1f1f1;
+    --vp-c-bg-mute: #e8e8e8;
+
+    --vp-c-text-1: var(--zen-black);
+    --vp-c-text-2: var(--zen-stone);
+
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: var(--zen-gradient-zen);
+
+    --vp-button-brand-border: var(--zen-black);
+    --vp-button-brand-text: var(--zen-snow);
+    --vp-button-brand-bg: var(--zen-black);
+    --vp-button-brand-hover-border: var(--zen-charcoal);
+    --vp-button-brand-hover-text: var(--zen-white);
+    --vp-button-brand-hover-bg: var(--zen-charcoal);
+
+    --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --vp-font-family-mono: "Fira Code", monospace;
+}
+
+.dark {
+    --vp-c-bg: var(--zen-black);
+    --vp-c-bg-soft: var(--zen-ink);
+    --vp-c-bg-mute: var(--zen-charcoal);
+
+    --vp-c-text-1: var(--zen-snow);
+    --vp-c-text-2: var(--zen-mist);
+
+    --vp-c-brand-1: var(--zen-snow);
+    --vp-c-brand-2: var(--zen-mist);
+    --vp-c-brand-3: var(--zen-stone);
+
+    --vp-home-hero-name-background: var(--zen-gradient-silver);
+
+    --vp-button-brand-border: var(--zen-snow);
+    --vp-button-brand-text: var(--zen-black);
+    --vp-button-brand-bg: var(--zen-snow);
+    --vp-button-brand-hover-border: var(--zen-white);
+    --vp-button-brand-hover-text: var(--zen-black);
+    --vp-button-brand-hover-bg: var(--zen-white);
+}
+
+/* Zen-inspired Typography & Effects */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Outfit', 'Noto Serif JP', serif;
+    letter-spacing: -0.02em;
+}
+
+.VPButton.brand {
+    background: var(--vp-button-brand-bg) !important;
+    border-color: var(--vp-button-brand-border) !important;
+    color: var(--vp-button-brand-text) !important;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-radius: 4px;
+    /* Sharp but refined */
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.VPButton.brand:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dark .VPButton.brand:hover {
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Background Accent */
+.VPNavBar {
+    background-color: transparent !important;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--vp-c-gutter) !important;
+}
+
+/* Hero Section Refinement */
+.VPHero {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    animation: fadeIn 1.2s ease-out;
+}
+
+.VPHero .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.VPHero .image-bg {
+    filter: blur(60px);
+    opacity: 0.15;
+    background: var(--vp-home-hero-name-background);
+}
+
+/* Themed Logo Utility */
+.themed-logo {
+    height: 2.0em;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    display: inline-block;
+}
+
+.dark .themed-logo.light-only {
+    display: none;
+}
+
+html:not(.dark) .themed-logo.dark-only {
+    display: none;
+}
+
+.name {
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Zen subtle hover for links */
+.nav-bar-content a {
+    transition: color 0.3s ease;
+}
+
+.nav-bar-content a:hover {
+    color: var(--vp-c-brand-1);
+}
