@@ -28,7 +28,7 @@ features:
 
 <h2 id="products" style="text-align: center; margin-top: 4rem; margin-bottom: 2rem;">プロダクト</h2>
 
-### <img src="/assets/zenclip/logo.png" class="themed-logo light-only" alt="ZenClip Logo" /><img src="/assets/zenclip/logo-white.png" class="themed-logo dark-only" alt="ZenClip Logo" /> ZenClip
+### <img src="../assets/zenclip/logo.png" class="themed-logo light-only" alt="ZenClip Logo" /><img src="../assets/zenclip/logo-white.png" class="themed-logo dark-only" alt="ZenClip Logo" /> ZenClip
 
 テキストをコピーしてショートカットキーを押すだけ。ブラウザを開かずに、ローカルのGemini CLI経由で翻訳・要約・コード校正をバックグラウンドで完結させます。**GoogleやGitHubが提供しているCLIアプリ経由のため、従量課金制のAPIは一切使用していません。お財布に優しくAIを手軽に利用できます。**
 

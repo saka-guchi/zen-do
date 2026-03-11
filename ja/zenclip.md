@@ -1,11 +1,11 @@
-# <img src="/assets/zenclip/logo.png" class="themed-logo light-only" alt="ZenClip Logo" /><img src="/assets/zenclip/logo-white.png" class="themed-logo dark-only" alt="ZenClip Logo" /> ZenClip の使い方
+# <img src="../assets/zenclip/logo.png" class="themed-logo light-only" alt="ZenClip Logo" /><img src="../assets/zenclip/logo-white.png" class="themed-logo dark-only" alt="ZenClip Logo" /> ZenClip の使い方
 
 **ZenClip** は、Windowsのタスクトレイに常駐するAI搭載のクリップボードマネージャーです。
 ローカル環境の **Gemini CLI** または **GitHub Copilot CLI** と連携し、作業の手を止めることなく、クリップボードのテキストをカスタムプロンプトで瞬時に処理します。
 
 **基本無料（機能制限あり）** でご利用いただけます。PolarでProライセンスを購入いただくことで、すべての機能が解放されます。
 
-![デモ動画](/assets/zenclip/demo.ja.gif)
+![デモ動画](../assets/zenclip/demo.ja.gif)
 
 ---
 
@@ -27,10 +27,10 @@
 - **マルチエンジン対応**: Gemini CLI だけでなく、GitHub Copilot CLI もエンジンとして選択可能です。
 - **邪魔にならない設計**: タスクトレイに静かに常駐。処理中は極小のOSDが表示され、完了は通知でお知らせします。
 - **カスタムプロンプト**: 用途に合わせたAIへの指示（プロンプト）を自由に追加・管理できます。
-  ![Prompt Editor](/assets/zenclip/PromptWindow.ja.png)
+  ![Prompt Editor](../assets/zenclip/PromptWindow.ja.png)
 - **履歴管理**: AIの応答を自動保存。履歴ウィンドウから過去の結果を確認・再利用したり、複数選択して一括削除することが可能です。
 
-  ![History](/assets/zenclip/HistoryWindow.ja.png)
+  ![History](../assets/zenclip/HistoryWindow.ja.png)
 - **多言語対応**: UIは英語と日本語に対応（OSの言語設定に合わせて自動で切り替わります）。
 
 ### アイコンの状態
@@ -38,9 +38,9 @@
 
 | 状態 | アイコン | 説明 |
 | :--- | :--- | :--- |
-| **待機中** | ![](/assets/zenclip/TrayIcon_Idle.png) | 準備完了の状態です。 |
-| **処理中** | ![](/assets/zenclip/TrayIcon_Processing.png) | AIがリクエストを処理しています。 |
-| **エラー** | ![](/assets/zenclip/TrayIcon_Error.png) | 処理に失敗しました。CLIツールの状態を確認してください。 |
+| **待機中** | ![](../assets/zenclip/TrayIcon_Idle.png) | 準備完了の状態です。 |
+| **処理中** | ![](../assets/zenclip/TrayIcon_Processing.png) | AIがリクエストを処理しています。 |
+| **エラー** | ![](../assets/zenclip/TrayIcon_Error.png) | 処理に失敗しました。CLIツールの状態を確認してください。 |
 
 ---
 
@@ -71,6 +71,6 @@
 ### 2. テキストの処理
 1. 処理したいテキストを**選択してコピー**します。
 2. ショートカット **`<Ctrl> + <Shift> + C`** を押します。<br/>
-  ![OSD](/assets/zenclip/ProcessingOsdWindow.ja.png)
+  ![OSD](../assets/zenclip/ProcessingOsdWindow.ja.png)
 3. **即座にAI処理が開始**され、結果は自動的にクリップボードにコピーされます（設定で変更可能）。<br/>
-  ![Toast](/assets/zenclip/ToastWindow.ja.png)
+  ![Toast](../assets/zenclip/ToastWindow.ja.png)

@@ -28,7 +28,7 @@ features:
 
 <h2 id="products" style="text-align: center; margin-top: 4rem; margin-bottom: 2rem;">Products</h2>
 
-### <img src="/assets/zenclip/logo.png" class="themed-logo light-only" alt="ZenClip Logo" /><img src="/assets/zenclip/logo-white.png" class="themed-logo dark-only" alt="ZenClip Logo" /> ZenClip
+### <img src="./assets/zenclip/logo.png" class="themed-logo light-only" alt="ZenClip Logo" /><img src="./assets/zenclip/logo-white.png" class="themed-logo dark-only" alt="ZenClip Logo" /> ZenClip
 
 Just copy text and press the shortcut. Process translations, summaries, and code proofreading in the background via local Gemini CLI without ever opening a browser. **Because it routes through CLI tools provided by Google and GitHub, it uses no pay-as-you-go APIs, letting you use AI easily and affordably.**
 
