@@ -55,7 +55,7 @@ ZenClip can be used for free as the "Free Version" even without entering a licen
 
 ### Purchasing a Pro License
 To unlock all features, please purchase a license.
-**[🛒 Purchase ZenClip Pro License on Polar](https://buy.polar.sh/polar_cl_O7UokiAgrxf6j1fNggb0X2cddHfaWymznBB1C3V8jBT)**
+**[🛒 Purchase ZenClip Pro License on Polar](https://buy.polar.sh/polar_cl_uYQimxvpseP80yopub0uTZO2tXZqXDseLS68r0TCXBv)**
 
 *Note: This project has just launched and is still a work in progress. We would truly appreciate it if you could support its development with a donation-like purchase.*
 

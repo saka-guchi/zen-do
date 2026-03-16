@@ -56,7 +56,7 @@
 
 ### Pro版ライセンスの購入
 すべての機能を解放したい場合は、ライセンスをご購入ください。
-**[🛒 ZenClip Pro ライセンスを Polar で購入する](https://buy.polar.sh/polar_cl_O7UokiAgrxf6j1fNggb0X2cddHfaWymznBB1C3V8jBT)**
+**[🛒 ZenClip Pro ライセンスを Polar で購入する](https://buy.polar.sh/polar_cl_uYQimxvpseP80yopub0uTZO2tXZqXDseLS68r0TCXBv)**
 
 *※立ち上げたばかりのプロジェクトであり完成度は道半ばですが、寄付を兼ねた温かいご支援として購入いただけると幸いです。*
 
